@@ -7,4 +7,5 @@ categories: [python, numpy]
 
 ```python
 import numpy as np
+import sklearn
 ```
