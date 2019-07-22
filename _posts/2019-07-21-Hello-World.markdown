@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Hello World"
-date:   2019-07-21 18:34:10 +0700
-categories: [python, numpy]
+date:   2019-07-22 18:34:10 +0700
+categories: 
 ---
 
-```python
-import numpy as np
-import sklearn
-```
+Hello Everyone, This is my first post here. I intend to write more.So, stay tuned. 
+
+
+
