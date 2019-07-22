@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+HI! I'm Phani. This is my personal blog where I write about Machine Learning.
+Nowadays my main focus has been NLP. Previously I worked on various ML topics.
 
-email: agus[at]python.web.id
+email: teja.phani [at] gmail.com
