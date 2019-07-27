@@ -9,6 +9,7 @@ categories: [nlp]
 
 
 ![parse_tree](../static/img/parse_tree_27Jul1.jpg)
+
 *Generated  with [stanford parser](http://nlp.stanford.edu:8080/parser/)  and [online syntax tree generator](http://mshang.ca/syntree/)*
 
 Consider the sentence  "He went to the bar"
