@@ -9,7 +9,7 @@ categories: [nlp]
 
 
 
-![Image](../static/img/parse_tree_27Jul1.jpg  "Image")
+![Image](../static/img/avatar.jpg  "Image")
 *Generated  with [stanford parser](http://nlp.stanford.edu:8080/parser/)  and [online syntax tree generator](http://mshang.ca/syntree/)*
 
 
