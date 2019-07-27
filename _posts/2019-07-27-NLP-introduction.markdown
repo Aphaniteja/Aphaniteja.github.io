@@ -8,8 +8,7 @@ categories: [nlp]
 ---
 
 
-
-![Image](../static/img/avatar.jpg  "Image")
+![parse_tree](https://raw.githubusercontent.com/Aphaniteja/aphaniteja.github.io/master/static/img/parse_tree_27Jul1.jpg)
 *Generated  with [stanford parser](http://nlp.stanford.edu:8080/parser/)  and [online syntax tree generator](http://mshang.ca/syntree/)*
 
 
