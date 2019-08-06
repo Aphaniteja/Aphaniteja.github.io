@@ -42,8 +42,8 @@ Machine learning algorithms build models from data.
 ```python
 def train_model(model,data)
     model.train(data)
-    ```
-     After the model has been built, it can then take a sentence as an input and produce and output
+```
+After the model has been built, it can then take a sentence as an input and produce and output
       
 ```python
 def predict(model,sentence)
