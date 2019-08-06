@@ -32,4 +32,21 @@ Consider a sentence x. We want a program F which will give us all the noun outpu
 
 so F(x) should return ["bar"] for the above sentence.
 
-Building this program F is the task for NLP engineers.  
+Building this program F is the task for NLP engineers. 
+
+
+This program could be built in many ways, each with various degrees of accuracy, but recently it's being built with the help of machine learning(ML) algorithms. 
+
+Machine learning algorithms build models from data.
+
+```python
+def train_model(model,data)
+    model.train(data)
+    ```
+     After the model has been built, it can then take a sentence as an input and produce and output
+      
+```python
+def predict(model,sentence)
+    nouns=model(sentence)
+    return nouns
+```
