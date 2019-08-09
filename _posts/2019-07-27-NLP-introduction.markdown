@@ -50,3 +50,16 @@ def predict(model,sentence)
     nouns=model(sentence)
     return nouns
 ```
+
+Machine Learning algorithms learn from data. They learn to find statistical patterns among the training data and use those patterns to answer questions about unseen data. 
+
+I mentioned that F is a computer program, but within F is M which is the machine learning algorithm.
+A machine learning algorithm consists of a model.  A model is nothing but a set of assumptions we make about the problem. For example, the popular linear regression model assumes that output is a linear function of the input
+
+Where do these assumptions come from?
+Statisticians and computer scientists have come up with these assumptions for a long time. Actually anyone can come up with assumptions, but the validity and performance of those assumptions decide good ml model from a bad one.
+
+Let's get back to the problem at hand. We learned that F can be built with an ML algorithm and that before we use an ML algorithm, first we need to train it with data. Data is very accessible nowadays(in general and unlabelled). But if data is not available, then we could try to build NLP systems based on rules. For example, we could classify the word which appears after the word "the" as a noun. That rule would work in our example. Since "bar" appears after "the", this program would return
+us ["bar"] as the answer. But many times this program would return incorrect results. We want to minimize our errors, and ML algorithms have proven to be really good at solving NLP problems.
+
+So we need to get data first. There are places online where one can get access to annotated parts of speech data. For example [this one.](http://nlpprogress.com/english/part-of-speech_tagging.html) 
