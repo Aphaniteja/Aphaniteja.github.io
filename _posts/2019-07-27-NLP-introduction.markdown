@@ -62,4 +62,30 @@ Statisticians and computer scientists have come up with these assumptions for a 
 Let's get back to the problem at hand. We learned that F can be built with an ML algorithm and that before we use an ML algorithm, first we need to train it with data. Data is very accessible nowadays(in general and unlabelled). But if data is not available, then we could try to build NLP systems based on rules. For example, we could classify the word which appears after the word "the" as a noun. That rule would work in our example. Since "bar" appears after "the", this program would return
 us ["bar"] as the answer. But many times this program would return incorrect results. We want to minimize our errors, and ML algorithms have proven to be really good at solving NLP problems.
 
-So we need to get data first. There are places online where one can get access to annotated parts of speech data. For example [this one.](http://nlpprogress.com/english/part-of-speech_tagging.html) 
+So we need to get data first. There are places online where one can get access to annotated parts of speech data. For example [this one.](https://github.com/teropa/nlp/tree/master/resources/corpora/treebank)
+
+Great.Now that we have data. We can train the model. But how do we pass the data through the model though? That is the topic of the next section
+
+
+### Representing text numerically
+Within the machine algorithm lies the ML model. ML model is usually a mathematical function f(x). This is different from our computer program F(x). 
+f(x) is just a mathematical formula, and in many cases, it is differentiable too. The domain of this function is usually the real Tensor and the output is also a real Tensor. Obviously, the function is multidimensional.
+
+Consider our sentence X. 
+X="He went to the bar"
+this sentence can be represented in many ways. One way is as words. 
+["He","went","to","the","bar"] . 
+if we pass X through f. we should get the output [0,0,0,0,1].
+The only noun is "bar"
+
+ F(["He","went","to","the","bar"]) -> [0,0,0,0,1]
+
+ One more way to express X could be as
+['H','e',' ','w','e','n','t',' ','t','o',' ','t','h','e',' ','b','a','r'].
+The outcome would still be [0,0,0,0,1] corresponding to the words. This can also be changed on how we formulate the problem. 
+
+But f(x) only takes numerical tensor as an input. So we need to convert these words into numbers.
+That is the topic of the next blog post.
+
+
+
